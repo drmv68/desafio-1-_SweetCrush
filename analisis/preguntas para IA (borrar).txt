@@ -1,0 +1,84 @@
+En el archivo de word escribí lo que considero que tengo que hacer para hacer el proyecto desafio 1
+tengo problemas con los operadores de bit, no sé como generarlos, no sé como funcionan, si cada caracter tiene su codigo en bit
+no sé si funiona como el codigo ASCCI o algo así que ya existen, hay un pedazo en las especificaicoens que dice que no se puede dar un valor
+forzado por el programador (me pareció entender), entonces no sé si esté correcto, ese es un pedazo que debo entender par saber como comparar los bits de un caracter de la matriz
+con otro. También quiero hacer una logica macro, de modulos, como podría estructurar todo para que quede funcional, cuales deben ser las posibles funciones, quiero empezar
+con lo basico, ir desarrollando de lo macro desde lo mas facil, rapido, interfaz para luego si empezar a escribir codigo. Necesito un buen analisis, que me ayudes a ver
+y a escoger buenos caminos, estrutcutar mi logica, hacerlo paso a paso ir creciendo el codigo, partiendo de puntos, como ir creando de macro a micro, cuales son las
+funciones reina, que va a hacer que el programe trabaje, que hace logica y el main el principal, limpio, bonito, con declaraciones globales.
+
+Ayudame a pensar, a analisas de manera general, de manera macro, a estructurar, a contruir. Explicame que es lo que piden en realidad, en palabras minimalisas, simples,
+con palabras como si alguien que no sabe programar, alguien que solo quiere desenredar un problema gigante en problemitas, quiero hacer un plan ejecutable, un plan de accion
+estrategia, principalmente al inicio de forma desoptimizada, que funcione, luego iremos mejorando, optimizando, perfeccionando, corriguiendo y enlazando. Yo soy con otro compañero
+tambien entender cuales serán los puntos a realizar, como nos podriamos dividir las funciones a realizar pero eso es cuando ya se tenga todo el analisis listo
+con buena nocion de la logica en palabras (nada de codigo, solo logica), flujo, estrutura.
+
+un posible plan de ejecucion sería:
+
+"
+### 1. ¿Qué te están pidiendo?
+
+Básicamente, el profesor te está pidiendo que construyas el motor de un juego estilo **Candy Crush**. Tienes un tablero lleno de fichas, el usuario elige una ficha para estallar, las fichas que estaban arriba caen por gravedad para llenar el hueco, y los espacios nuevos arriba se llenan con fichas aleatorias. Si al caer se juntan 3 o más fichas iguales (horizontal o verticalmente), se estallan solas (esto es una "cascada") y el ciclo se repite hasta que el tablero quede quieto.
+
+Además de jugar, el usuario puede decir: "quiero agregar una columna nueva" o "quiero eliminar la fila 3".
+
+### 2. El "Chisme" de los Bits (Aclarando tu mayor duda)
+
+En tu análisis (el archivo de Word), tenías la duda de si a los caracteres como '#', '$' o '?' les asignabas un valor o si usabas el código ASCII. **¡Olvida el ASCII y las variables normales!** Aquí está la trampa principal del desafío:
+
+El profesor te prohíbe usar variables completas (bytes o enteros) para guardar una sola ficha. Te exige que cada ficha ocupe **exactamente 3 bits** (3 interruptores). Con 3 bits, tienes 8 combinaciones posibles (desde el `000` hasta el `111`).
+
+* **Tú eres el dios de esos bits:** Tú decides qué significa cada combinación. Por ejemplo, decides que `000` es la ficha 'A' (o '#'), `001` es la 'B', etc. Tienes 6 tipos de fichas, así que te sobran dos combinaciones (ej. `110` y `111`) que puedes usar para marcar un "espacio vacío" o un "estado especial".
+
+
+* **El problema de empaquetar:** Como la memoria RAM se divide en bytes (cajas de 8 bits) y tus fichas miden 3 bits, no caben exactas. En un byte (8 espacios) metes la primera ficha (ocupa 3), metes la segunda ficha (ocupa 3) y te sobran 2 espacios. La tercera ficha tiene que meter 2 bits en ese byte viejo y su último bit en el byte nuevo. Todo el tablero es una tira larguísima de bits pegados unos con otros sin espacios.
+
+
+
+### 3. La Lógica Macro: Las "Funciones Reina"
+
+Para que tu código no sea un espagueti, tu programa necesita dividirse en "módulos" o departamentos. Estas serán tus funciones principales:
+
+* **El Traductor (Matemática pura):** Es una función que recibe una coordenada (Fila 2, Columna 3) y te devuelve exactamente en qué byte de la memoria y en qué bit específico arranca esa ficha.
+
+
+* **El Lector y El Escritor (Las reinas del bajo nivel):** Dos funciones maestras. Una va a la memoria, extrae 3 bits específicos y te dice qué ficha es. La otra va a la memoria y sobreescribe 3 bits con una ficha nueva. Si estas dos funcionan, el resto de tu programa jamás tendrá que preocuparse por los bits.
+
+
+* **El Radar de Combinaciones:** Recorre el tablero (usando al Lector) buscando si hay 3 o más fichas iguales pegadas.
+
+
+* **El Motor de Gravedad:** Hace que lo que está arriba de un espacio vacío caiga y genera las fichas nuevas aleatorias.
+
+
+* **El Arquitecto de Memoria:** Crea el tablero pidiendo memoria dinámica, lo agranda, lo achica y empaca los datos si eliminas o agregas filas/columnas.
+
+
+
+### 4. Plan de Acción (Estrategia paso a paso de lo micro a lo macro)
+
+No intentes hacer el juego de una. Sigue esta escalera de evolución:
+
+**FASE 1: El Laboratorio de Bits (Olvídate del juego por ahora)**
+Haz un código que solo pida una tira de memoria dinámica y prueba tus funciones "Lector" y "Escritor". Verifica que puedes guardar un valor de 3 bits en cualquier posición y luego leerlo correctamente, incluso si está partido entre dos bytes diferentes. ¡Si esto falla, el proyecto entero se cae!
+
+**FASE 2: El Tablero Visual**
+Crea el tablero lógico inicial. Llena la tira de bits con números aleatorios (del 0 al 5, representando las 6 fichas). Haz una función para imprimir en pantalla que lea la tira y traduzca: "si leo `000` imprimo 'A', si leo `001` imprimo 'B'".
+
+**FASE 3: El Francotirador y la Gravedad (Sin combinaciones aún)**
+Haz que el usuario elija eliminar una coordenada (Fila, Columna). Tu programa marca esa ficha con el código de "espacio libre" (ej. `111`). Luego, haz la lógica para que las fichas que están arriba de ese `111` bajen a ocupar su lugar y se genere una nueva en la cima. Imprime el tablero para ver cómo cayó todo.
+
+**FASE 4: El Candy Crush (Las combinaciones)**
+Ahora sí, implementa el "Radar". Después de imprimir o mover algo, escanea el tablero para ver si hay grupos de 3 seguidos. Si los hay, conviértelos en espacios libres (`111`), llama a la FASE 3 para que caigan las fichas, y vuelve a pasar el Radar (esto es la famosa cascada).
+
+**FASE 5: El Arquitecto (El dolor de cabeza final)**
+Implementa agregar y eliminar filas/columnas. Esto va de último porque al hacer esto, el tamaño total de la tira de bits cambia, y tendrás que crear una nueva tira de memoria, copiar los bits correctos de la vieja a la nueva, borrar la vieja, y revisar si se formaron nuevas combinaciones de 3.
+
+### 5. ¿Cómo dividirse el trabajo con tu compañero?
+
+Una vez tengan el "Traductor" lógico claro en papel, la división perfecta es:
+
+* **Compañero 1: "El Ingeniero de Bajo Nivel".** Se encarga de la memoria y los bits. Programa la FASE 1, la función de imprimir el tablero y la FASE 5 (redimensionar memoria, agregar/quitar filas y columnas). Este rol usa mucha matemática de índices, desplazamientos de bits (`<<`, `>>`) y máscaras (`&`, `|`).
+
+
+* **Compañero 2: "El Diseñador del Juego".** Se encarga de la lógica del tablero. Programa la FASE 3 (la caída de fichas y recarga aleatoria) y la FASE 4 (buscar 3 en raya, el ciclo de cascadas, contar puntos). Este rol no necesita tocar operadores de bits; simplemente usa las funciones Lector/Escritor que hizo el Compañero 1 para saber qué hay en cada coordenada y modificarlo."
