@@ -110,11 +110,86 @@ CMakeFiles/desafioUNO_SweetCrush.dir/logicaTablero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/logicaTablero.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\logicaTablero.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\logicaTablero.cpp.s
 
+CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/flags.make
+CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj: C:/Users/darim/Documents/UDEA/Info2/desafio1/modulacionCodigo/desafioUNO_SweetCrush/Combinaciones.cpp
+CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj -MF CMakeFiles\desafioUNO_SweetCrush.dir\Combinaciones.cpp.obj.d -o CMakeFiles\desafioUNO_SweetCrush.dir\Combinaciones.cpp.obj -c C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Combinaciones.cpp
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Combinaciones.cpp > CMakeFiles\desafioUNO_SweetCrush.dir\Combinaciones.cpp.i
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Combinaciones.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\Combinaciones.cpp.s
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/flags.make
+CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj: C:/Users/darim/Documents/UDEA/Info2/desafio1/modulacionCodigo/desafioUNO_SweetCrush/Visualizacion.cpp
+CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj -MF CMakeFiles\desafioUNO_SweetCrush.dir\Visualizacion.cpp.obj.d -o CMakeFiles\desafioUNO_SweetCrush.dir\Visualizacion.cpp.obj -c C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Visualizacion.cpp
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Visualizacion.cpp > CMakeFiles\desafioUNO_SweetCrush.dir\Visualizacion.cpp.i
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Visualizacion.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\Visualizacion.cpp.s
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/flags.make
+CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj: C:/Users/darim/Documents/UDEA/Info2/desafio1/modulacionCodigo/desafioUNO_SweetCrush/Juego.cpp
+CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj -MF CMakeFiles\desafioUNO_SweetCrush.dir\Juego.cpp.obj.d -o CMakeFiles\desafioUNO_SweetCrush.dir\Juego.cpp.obj -c C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Juego.cpp
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Juego.cpp > CMakeFiles\desafioUNO_SweetCrush.dir\Juego.cpp.i
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Juego.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\Juego.cpp.s
+
+CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/flags.make
+CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj: C:/Users/darim/Documents/UDEA/Info2/desafio1/modulacionCodigo/desafioUNO_SweetCrush/estructuraTablero.cpp
+CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj -MF CMakeFiles\desafioUNO_SweetCrush.dir\estructuraTablero.cpp.obj.d -o CMakeFiles\desafioUNO_SweetCrush.dir\estructuraTablero.cpp.obj -c C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\estructuraTablero.cpp
+
+CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\estructuraTablero.cpp > CMakeFiles\desafioUNO_SweetCrush.dir\estructuraTablero.cpp.i
+
+CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\estructuraTablero.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\estructuraTablero.cpp.s
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/flags.make
+CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj: C:/Users/darim/Documents/UDEA/Info2/desafio1/modulacionCodigo/desafioUNO_SweetCrush/Partida.cpp
+CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj: CMakeFiles/desafioUNO_SweetCrush.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj -MF CMakeFiles\desafioUNO_SweetCrush.dir\Partida.cpp.obj.d -o CMakeFiles\desafioUNO_SweetCrush.dir\Partida.cpp.obj -c C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Partida.cpp
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Partida.cpp > CMakeFiles\desafioUNO_SweetCrush.dir\Partida.cpp.i
+
+CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\Partida.cpp -o CMakeFiles\desafioUNO_SweetCrush.dir\Partida.cpp.s
+
 # Object files for target desafioUNO_SweetCrush
 desafioUNO_SweetCrush_OBJECTS = \
 "CMakeFiles/desafioUNO_SweetCrush.dir/main.cpp.obj" \
 "CMakeFiles/desafioUNO_SweetCrush.dir/abstraccionDeMemoria.cpp.obj" \
-"CMakeFiles/desafioUNO_SweetCrush.dir/logicaTablero.cpp.obj"
+"CMakeFiles/desafioUNO_SweetCrush.dir/logicaTablero.cpp.obj" \
+"CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj" \
+"CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj" \
+"CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj" \
+"CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj" \
+"CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj"
 
 # External object files for target desafioUNO_SweetCrush
 desafioUNO_SweetCrush_EXTERNAL_OBJECTS =
@@ -122,11 +197,16 @@ desafioUNO_SweetCrush_EXTERNAL_OBJECTS =
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/main.cpp.obj
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/abstraccionDeMemoria.cpp.obj
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/logicaTablero.cpp.obj
+desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj
+desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj
+desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj
+desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj
+desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/build.make
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/linkLibs.rsp
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/objects1.rsp
 desafioUNO_SweetCrush.exe: CMakeFiles/desafioUNO_SweetCrush.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable desafioUNO_SweetCrush.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable desafioUNO_SweetCrush.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\desafioUNO_SweetCrush.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

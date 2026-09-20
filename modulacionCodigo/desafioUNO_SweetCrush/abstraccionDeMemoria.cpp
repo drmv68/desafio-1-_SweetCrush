@@ -2,9 +2,8 @@
 #include <iostream>
 using namespace std;
 
-void calcularUbicacion(int columnas, int fila, int col, int& byte_objetivo, int& posicion_interna, int& bits_disponibles) {
+void calcularUbicacion(int indice, int& byte_objetivo, int& posicion_interna, int& bits_disponibles) {
 
-    int indice = (fila * columnas) + col;
     int bit_inicial = indice * 3;
 
     byte_objetivo = bit_inicial / 8;
@@ -13,12 +12,12 @@ void calcularUbicacion(int columnas, int fila, int col, int& byte_objetivo, int&
     bits_disponibles = 8 - posicion_interna;
 }
 
-int leerFicha(unsigned char* tablero, int columnas, int fila, int col){
+int leerFichaIndice(const unsigned char* tablero, int indice) {
     int byte_objetivo = 0;
     int posicion_interna = 0;
     int bits_disponibles = 0;
 
-    calcularUbicacion(columnas, fila, col, byte_objetivo, posicion_interna, bits_disponibles);
+    calcularUbicacion(indice, byte_objetivo, posicion_interna, bits_disponibles);
 
     if (bits_disponibles >= 3) {
         int ficha = tablero[byte_objetivo] >> posicion_interna;
@@ -37,13 +36,13 @@ int leerFicha(unsigned char* tablero, int columnas, int fila, int col){
     }
 }
 
-void escribirFicha(unsigned char* tablero, int columnas, int fila, int col, int nueva_ficha) {
+void escribirFichaIndice(unsigned char* tablero, int indice, int nueva_ficha) {
 
     int byte_objetivo = 0;
     int posicion_interna = 0;
     int bits_disponibles = 0;
 
-    calcularUbicacion(columnas, fila, col, byte_objetivo, posicion_interna, bits_disponibles);
+    calcularUbicacion(indice, byte_objetivo, posicion_interna, bits_disponibles);
 
     if (bits_disponibles >= 3) {
         int mascara_demolicion = ~(7 << posicion_interna);
@@ -67,4 +66,14 @@ void escribirFicha(unsigned char* tablero, int columnas, int fila, int col, int 
         int pedazo2 = nueva_ficha >> bits_disponibles;
         tablero[byte_objetivo + 1] = tablero[byte_objetivo + 1] | pedazo2;
     }
+}
+
+int leerFicha(const unsigned char* tablero, int columnas, int fila, int col) {
+    int indice = (fila * columnas) + col;
+    return leerFichaIndice(tablero, indice);
+}
+
+void escribirFicha(unsigned char* tablero, int columnas, int fila, int col, int nueva_ficha) {
+    int indice = (fila * columnas) + col;
+    escribirFichaIndice(tablero, indice, nueva_ficha);
 }

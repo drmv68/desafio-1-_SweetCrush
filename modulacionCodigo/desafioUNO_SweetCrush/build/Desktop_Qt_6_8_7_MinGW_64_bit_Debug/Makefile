@@ -173,6 +173,102 @@ desafioUNO_SweetCrush/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/build
 .PHONY : desafioUNO_SweetCrush/fast
 
+Combinaciones.obj: Combinaciones.cpp.obj
+.PHONY : Combinaciones.obj
+
+# target to build an object file
+Combinaciones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.obj
+.PHONY : Combinaciones.cpp.obj
+
+Combinaciones.i: Combinaciones.cpp.i
+.PHONY : Combinaciones.i
+
+# target to preprocess a source file
+Combinaciones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.i
+.PHONY : Combinaciones.cpp.i
+
+Combinaciones.s: Combinaciones.cpp.s
+.PHONY : Combinaciones.s
+
+# target to generate assembly for a file
+Combinaciones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Combinaciones.cpp.s
+.PHONY : Combinaciones.cpp.s
+
+Juego.obj: Juego.cpp.obj
+.PHONY : Juego.obj
+
+# target to build an object file
+Juego.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.obj
+.PHONY : Juego.cpp.obj
+
+Juego.i: Juego.cpp.i
+.PHONY : Juego.i
+
+# target to preprocess a source file
+Juego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.i
+.PHONY : Juego.cpp.i
+
+Juego.s: Juego.cpp.s
+.PHONY : Juego.s
+
+# target to generate assembly for a file
+Juego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Juego.cpp.s
+.PHONY : Juego.cpp.s
+
+Partida.obj: Partida.cpp.obj
+.PHONY : Partida.obj
+
+# target to build an object file
+Partida.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.obj
+.PHONY : Partida.cpp.obj
+
+Partida.i: Partida.cpp.i
+.PHONY : Partida.i
+
+# target to preprocess a source file
+Partida.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.i
+.PHONY : Partida.cpp.i
+
+Partida.s: Partida.cpp.s
+.PHONY : Partida.s
+
+# target to generate assembly for a file
+Partida.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Partida.cpp.s
+.PHONY : Partida.cpp.s
+
+Visualizacion.obj: Visualizacion.cpp.obj
+.PHONY : Visualizacion.obj
+
+# target to build an object file
+Visualizacion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.obj
+.PHONY : Visualizacion.cpp.obj
+
+Visualizacion.i: Visualizacion.cpp.i
+.PHONY : Visualizacion.i
+
+# target to preprocess a source file
+Visualizacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.i
+.PHONY : Visualizacion.cpp.i
+
+Visualizacion.s: Visualizacion.cpp.s
+.PHONY : Visualizacion.s
+
+# target to generate assembly for a file
+Visualizacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/Visualizacion.cpp.s
+.PHONY : Visualizacion.cpp.s
+
 abstraccionDeMemoria.obj: abstraccionDeMemoria.cpp.obj
 .PHONY : abstraccionDeMemoria.obj
 
@@ -196,6 +292,30 @@ abstraccionDeMemoria.s: abstraccionDeMemoria.cpp.s
 abstraccionDeMemoria.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/abstraccionDeMemoria.cpp.s
 .PHONY : abstraccionDeMemoria.cpp.s
+
+estructuraTablero.obj: estructuraTablero.cpp.obj
+.PHONY : estructuraTablero.obj
+
+# target to build an object file
+estructuraTablero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.obj
+.PHONY : estructuraTablero.cpp.obj
+
+estructuraTablero.i: estructuraTablero.cpp.i
+.PHONY : estructuraTablero.i
+
+# target to preprocess a source file
+estructuraTablero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.i
+.PHONY : estructuraTablero.cpp.i
+
+estructuraTablero.s: estructuraTablero.cpp.s
+.PHONY : estructuraTablero.s
+
+# target to generate assembly for a file
+estructuraTablero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/estructuraTablero.cpp.s
+.PHONY : estructuraTablero.cpp.s
 
 logicaTablero.obj: logicaTablero.cpp.obj
 .PHONY : logicaTablero.obj
@@ -258,9 +378,24 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... desafioUNO_SweetCrush
+	@echo ... Combinaciones.obj
+	@echo ... Combinaciones.i
+	@echo ... Combinaciones.s
+	@echo ... Juego.obj
+	@echo ... Juego.i
+	@echo ... Juego.s
+	@echo ... Partida.obj
+	@echo ... Partida.i
+	@echo ... Partida.s
+	@echo ... Visualizacion.obj
+	@echo ... Visualizacion.i
+	@echo ... Visualizacion.s
 	@echo ... abstraccionDeMemoria.obj
 	@echo ... abstraccionDeMemoria.i
 	@echo ... abstraccionDeMemoria.s
+	@echo ... estructuraTablero.obj
+	@echo ... estructuraTablero.i
+	@echo ... estructuraTablero.s
 	@echo ... logicaTablero.obj
 	@echo ... logicaTablero.i
 	@echo ... logicaTablero.s

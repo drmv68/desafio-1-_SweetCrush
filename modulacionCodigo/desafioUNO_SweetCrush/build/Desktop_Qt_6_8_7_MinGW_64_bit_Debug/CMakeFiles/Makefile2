@@ -80,12 +80,12 @@ clean: CMakeFiles/desafioUNO_SweetCrush.dir/clean
 CMakeFiles/desafioUNO_SweetCrush.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafioUNO_SweetCrush.dir\build.make CMakeFiles/desafioUNO_SweetCrush.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=1,2,3,4 "Built target desafioUNO_SweetCrush"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target desafioUNO_SweetCrush"
 .PHONY : CMakeFiles/desafioUNO_SweetCrush.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/desafioUNO_SweetCrush.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/desafioUNO_SweetCrush.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darim\Documents\UDEA\Info2\desafio1\modulacionCodigo\desafioUNO_SweetCrush\build\Desktop_Qt_6_8_7_MinGW_64_bit_Debug\CMakeFiles 0
 .PHONY : CMakeFiles/desafioUNO_SweetCrush.dir/rule

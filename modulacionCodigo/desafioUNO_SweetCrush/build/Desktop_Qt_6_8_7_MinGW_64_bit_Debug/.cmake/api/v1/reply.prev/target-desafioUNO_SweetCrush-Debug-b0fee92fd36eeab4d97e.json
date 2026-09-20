@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -87,7 +87,11 @@
 			[
 				0,
 				2,
-				3
+				3,
+				5,
+				6,
+				9,
+				11
 			]
 		}
 	],
@@ -140,7 +144,11 @@
 			[
 				0,
 				2,
-				3
+				3,
+				5,
+				6,
+				9,
+				11
 			]
 		},
 		{
@@ -148,7 +156,11 @@
 			"sourceIndexes" : 
 			[
 				1,
-				4
+				4,
+				7,
+				8,
+				10,
+				12
 			]
 		}
 	],
@@ -180,6 +192,50 @@
 		{
 			"backtrace" : 1,
 			"path" : "logicaTablero.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Combinaciones.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Visualizacion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Combinaciones.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Visualizacion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Juego.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Juego.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "estructuraTablero.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "estructuraTablero.h",
 			"sourceGroupIndex" : 1
 		}
 	],

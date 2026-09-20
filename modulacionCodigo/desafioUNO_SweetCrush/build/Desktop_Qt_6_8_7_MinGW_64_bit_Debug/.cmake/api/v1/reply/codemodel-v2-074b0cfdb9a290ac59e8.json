@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-5b06b4e78f07a9ed2778.json",
+					"jsonFile" : "directory-.-Debug-dad203c97e22be5011ff.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "desafioUNO_SweetCrush::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-desafioUNO_SweetCrush-Debug-f0bc27d6e2e2a3d0282d.json",
+					"jsonFile" : "target-desafioUNO_SweetCrush-Debug-5b0e25c2cc3fd8e53955.json",
 					"name" : "desafioUNO_SweetCrush",
 					"projectIndex" : 0
 				}

@@ -2,11 +2,19 @@
 #include "abstraccionDeMemoria.h"
 #include <cstdlib>
 
-unsigned char* crearTablero(int filas, int columnas) {
-
+int bytesNecesariosTablero(int filas, int columnas) {
     int total_posiciones = filas * columnas;
     int total_bits = total_posiciones * 3;
-    int bytes_necesarios = (total_bits + 7) / 8;
+    return (total_bits + 7) / 8;
+}
+
+int generarFichaAleatoria() {
+    return rand() % 6;
+}
+
+unsigned char* crearTablero(int filas, int columnas) {
+
+    int bytes_necesarios = bytesNecesariosTablero(filas, columnas);
 
     unsigned char* tablero = new unsigned char[bytes_necesarios];
 
@@ -16,8 +24,7 @@ unsigned char* crearTablero(int filas, int columnas) {
 
     for (int f = 0; f < filas; f++) {
         for (int c = 0; c < columnas; c++) {
-            int ficha_aleatoria = rand() % 6;
-            escribirFicha(tablero, columnas, f, c, ficha_aleatoria);
+            escribirFicha(tablero, columnas, f, c, generarFichaAleatoria());
         }
     }
 
